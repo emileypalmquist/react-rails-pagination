@@ -1,0 +1,31 @@
+html {
+  text-align: center;
+}
+
+div.cards-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+img {
+  height: 5rem;
+  width: 5rem;
+}
+
+article.card {
+  margin: 1rem;
+  height: 15rem;
+  width: 15rem;
+  border: solid;
+  background-color: antiquewhite;
+}
+
+button.disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+
+  /*Button disabled - CSS color class*/
+  color: #c0c0c0;
+  background-color: #ffffff;
+}
